@@ -1,0 +1,4 @@
+{
+    "easycode.maxTokens": 10240,
+    "easycode.model": "gpt-3.5-turbo"
+}
