@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './custom.css';
+import './animation.css';
 // import './App.css';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
           <img className='w-2r h-2r' src="assets/images/Discord.png" style={{ marginLeft: '1rem', marginRight: '1rem' }}></img>
           <img className='w-2r h-2r' src="assets/images/Subtract.png"></img>
         </div>
-        <div className='mark custom-border flex justify-center align-center mr-5r' style={{ width: '15rem', padding: '1rem' }}>
+        <div className='mark custom-border conic flex justify-center align-center mr-5r' style={{ width: '15rem', padding: '1rem' }}>
           <span className=' text-grey fw-37-5 text-1-6r w-full App'>LAUNCH DAPP</span>
         </div>
       </div>

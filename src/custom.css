@@ -3,6 +3,11 @@
 @import "font-awesome";
 
 @font-face {
+  font-family: Poppins;
+  src: url('../public/assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
   font-family: 'Poppins';
   font-style: normal;
 }

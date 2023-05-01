@@ -1,0 +1,95 @@
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+@-webkit-keyframes rotate {
+	100% {
+		transform: rotate(1turn);
+	}
+}
+
+@keyframes rotate {
+	/* 0%, 100% {clip: rect(0px, $clip-size, $path-width, 0px); }
+			25% {clip: rect(0px, $path-width, $clip-size, 0px); }
+			50% {clip: rect($clip-size - $path-width, $clip-size, $clip-size, 0px); }
+			75% {clip: rect(0px, $clip-size, $clip-size, $clip-size - $path-width); }
+	 */
+	100% {
+		transform: rotate(1turn);
+	}
+}
+
+.conic {
+	position: relative;
+	z-index: 0;
+	/* width: 400px;
+  height: 300px; */
+	/* margin: 20px;
+  border-radius: 10px; */
+	overflow: hidden;
+	/* padding: 2rem; */
+}
+
+.conic:hover:before {
+	content: "";
+	position: absolute;
+	z-index: -2;
+	left: -50%;
+	top: -50%;
+	width: 200%;
+	height: 200%;
+	background-color: #1a232a;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	/* background-image: conic-gradient(transparent, #a8efff, transparent 30%); */
+	background-image: conic-gradient(transparent, #ffffff, transparent 30%);
+	-webkit-animation: rotate 1s linear infinite;
+	animation: rotate 1s linear infinite;
+}
+
+.conic:hover:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 1px;
+	top: 1px;
+	width: calc(100% - 2px);
+	height: calc(100% - 2px);
+	background: #000;
+	border-radius: 1px;
+}
+
+.conic-demo::after {
+	-webkit-animation: opacityChange 5s infinite linear;
+	animation: opacityChange 5s infinite linear;
+}
+
+@-webkit-keyframes opacityChange {
+	50% {
+		opacity: 0.5;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes opacityChange {
+	50% {
+		opacity: 0.5;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
