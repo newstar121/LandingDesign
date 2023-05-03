@@ -7,38 +7,40 @@ function App() {
   return (
     <div className="flex flex-column bg-0 text-normal">
       {/* header */}
-      <div className="flex align-center w-full" >
-        <div className='flex align-center justify-center ml-3r' style={{ width: '10rem', padding: '2.5rem' }}>
-          <img className='w-full h-full' src="assets/images/Asset.png"></img>
+      <div className="flex align-center justify-between w-full pl-m-5r pr-m-5r" style={{ height: '10rem' }}>
+        <div className='flex align-center justify-center ml-2r' style={{ width: '9.5rem', padding: '0rem' }}>
+          <img className='w-full h-full' src="assets/images/Asset.png" style={{ width: '3.5rem', height: '4.5rem' }}></img>
         </div>
-        <div className='mark flex align-center justify-center text-grey' style={{ width: '35rem' }}>
-          <span className='fw-32 text-1-4r lh-2'>For Traders</span>
-          <span className='fw-32 text-1-4r lh-2 ml-2r mr-2r'>For Managers</span>
-          <span className='fw-32 text-1-4r lh-2'>Docs</span>
+        <div className='mark flex align-center justify-center text-grey' style={{ width: '40rem' }}>
+          <span className='fw-32 text-1-3r lh-2'>For Traders</span>
+          <span className='fw-32 text-1-3r lh-2 ml-3r mr-3r'>For Managers</span>
+          <span className='fw-32 text-1-3r lh-2'>Docs</span>
         </div>
         <div className='flex align-center justify-centrer' style={{ width: '15rem', padding: '1rem' }}>
           <img className='w-2r h-2r' src="assets/images/Twitter.png"></img>
           <img className='w-2r h-2r' src="assets/images/Discord.png" style={{ marginLeft: '1rem', marginRight: '1rem' }}></img>
           <img className='w-2r h-2r' src="assets/images/Subtract.png"></img>
         </div>
-        <div className='mark custom-border conic flex justify-center align-center mr-5r' style={{ width: '15rem', padding: '1rem' }}>
-          <span className=' text-grey fw-37-5 text-1-6r w-full App'>LAUNCH DAPP</span>
+        <div className='mark custom-border conic flex justify-center align-center mr-3r' style={{ width: '15rem', padding: '0.8rem' }}>
+          <span className=' text-grey fw-37-5 text-1-5r w-full App'>LAUNCH DAPP</span>
         </div>
       </div>
       {/* divider */}
       <div className='divider h-0-3r w-full'></div>
       {/* body1 */}
-      <div className='bg-1 padding-5r flex flex-column justify-around h-50r'>
-        <div className='flex align-center text-white'>
-          <span className='text-4r fw-43-75 lh-5' >
-            Choose Pentos and elevate your on-chain investment journey today.
-          </span>
-          <div className='w-full mark'></div>
+      <div className='bg-1 padding-6r flex flex-column justify-around h-50r' style={{ width: '100%' }}>
+        <div className='flex flex-column text-white'>
+          <span className='text-4r fw-43-75 lh-5 bold' >Choose Pentos</span>
+          <span className='text-4r fw-43-75 lh-5 bold' >And Elevate</span>
+          <span className='text-4r fw-43-75 lh-5 bold' >Your On-Chain</span>
+          <span className='text-4r fw-43-75 lh-5 bold' >Investment</span>
+          <span className='text-4r fw-43-75 lh-5 bold' >Journey Today.</span>
+
         </div>
-        <div className='flex align-center text-white'>
-          <span className='text-2r fw-25 lh-2-2'>
-            Embrace your role as a manager or trader, and manage your on-chain portfolio on one seamless platform.
-          </span>
+        <div className='flex flex-column text-white'>
+          <span className='text-2r fw-25 lh-2-2'>Embrace your role as a manager or trader, and</span>
+          <span className='text-2r fw-25 lh-2-2'>manage your on-chain portfolio on one seamless</span>
+          <span className='text-2r fw-25 lh-2-2'>platform.</span>
           <div className='w-full mark'></div>
         </div>
       </div>
@@ -50,16 +52,34 @@ function App() {
           Why Pentos?
         </span>
         <div className='flex flex-column text-white'>
-          <div className='fw-43-75 text-4r lh-6'>
-            We’re committed to <span className='text-yellow'>reshaping they way you invest</span> in crypto, making it <span className='text-yellow'>more accessible and dynamic</span> than ever before.
+          <div className='flex flex-column'>
+            <div className='fw-43-75 text-4r lh-6'>
+              We’re committed to <span className='text-yellow'>reshaping</span>
+            </div>
+            <div className='fw-43-75 text-4r lh-6'>
+              <span className='text-yellow'> they way you invest</span> in crypto,
+            </div>
+            <div className='fw-43-75 text-4r lh-6'>
+              making it <span className='text-yellow'>more accessible and</span>
+            </div>
+            <div className='fw-43-75 text-4r lh-6'>
+              <span className='text-yellow'>dynamic</span> than ever before.
+            </div>
           </div>
-          <div className='fw-25 text-1-6r lh-2'>
-            Pentos Indexes are tokenized portfolios that can be created from the ground up with a multitude of parameters to create your index or buy in one click an existing one.
+
+          <div className='flex flex-column'>
+            <div className='fw-25 text-1-6r lh-2'>
+              Pentos Indexes are tokenized portfolios that can be created from the ground up with a
+            </div>
+            <div className='fw-25 text-1-6r lh-2'>
+              multitude of parameters to create your index or buy in one click an existing one.
+            </div>
           </div>
+
         </div>
         {/* 1 */}
-        <div className='flex align-center ml-1r mr-1r'>
-          <div className='flex flex-reverse-column justify-space-between w-half text-white'>
+        <div className='flex align-center justify-between ml-1r mr-1r'>
+          <div className='flex flex-reverse-column justify-between w-half text-white'>
             <img src='assets/images/1.svg' className='w-5r h-18-8r' style={{ paddingTop: '1rem', paddingBottom: '1rem' }}></img>
             <div className='flex flex-column justify-center ml-m-2r'>
               <span className='fw-37-5 text-2r lh-2-8'>Fully Customizable</span>
@@ -105,49 +125,49 @@ function App() {
           </div>
           <span className='fw-25 text-1-6r lh-2-4'>Copy and track these user-created Indexes.</span>
         </div>
-        <div className='flex ml-r-5r'>
-          <img className='w-half mark' src="assets/images/bg6.svg" style={{ width: '40%', height: '50vh' }} />
+        <div className='flex justify-between ml-r-5r'>
+          <img className='w-half mark' src="assets/images/bg6.svg" style={{ width: '50%', height: '85vh' }} />
           <div className='flex flex-column align-center justify-around w-half ml-m-2r'>
             <div className='flex align-center w-full'>
-              <img src='assets/images/_1.svg' style={{ width: '6.8rem', height: '6.2rem' }}></img>
-              <span className='fw-25 text-1-5r lh-2-2'>Get access to masterfully crafted sectoral portfolios.</span>
+              <img src='assets/images/_1.svg' style={{ width: '9rem', height: '8.5rem' }}></img>
+              <span className='fw-25 text-1-5r lh-2-2 ml-1r'>Get access to masterfully crafted sectoral portfolios.</span>
             </div>
             <div className='flex align-center w-full'>
-              <img src='assets/images/_2.svg' style={{ width: '6.8rem', height: '6.2rem' }}></img>
-              <span className='fw-25 text-1-5r lh-2-2'>Follow, copy and track user-created indexes, tapping into collective wisdom.</span>
+              <img src='assets/images/_2.svg' style={{ width: '9rem', height: '8.5rem' }}></img>
+              <span className='fw-25 text-1-5r lh-2-2 ml-1r'>Follow, copy and track user-created indexes, tapping into collective wisdom.</span>
             </div>
             <div className='flex align-center w-full'>
-              <img src='assets/images/_3.svg' style={{ width: '6.8rem', height: '6.2rem' }}></img>
-              <span className='fw-25 text-1-5r lh-2-2'>Embrace the power of shared knowledge and expertise, all at your fingertips.</span>
+              <img src='assets/images/_3.svg' style={{ width: '9rem', height: '8.5rem' }}></img>
+              <span className='fw-25 text-1-5r lh-2-2 ml-1r'>Embrace the power of shared knowledge and expertise, all at your fingertips.</span>
             </div>
             <div className='flex align-center w-full'>
-              <img src='assets/images/_4.svg' style={{ width: '6.8rem', height: '6.2rem' }}></img>
-              <span className='fw-25 text-1-5r lh-2-2'>AI powered index builder for a basket in one click</span>
+              <img src='assets/images/_4.svg' style={{ width: '9rem', height: '8.5rem' }}></img>
+              <span className='fw-25 text-1-5r lh-2-2 ml-1r'>AI powered index builder for a basket in one click</span>
             </div>
           </div>
         </div>
         <div className='flex flex-column align-flex-end justify-around'>
           <span className='fw-700 text-30 lh-5'>Empowering Managers to Thrive</span>
-          <div className='fw-700 text-4r lh-6' style={{textAlign: 'right'}}><span className='text-yellow'>Monetize your expertise </span>with</div>
+          <div className='fw-700 text-4r lh-6' style={{ textAlign: 'right' }}><span className='text-yellow'>Monetize your expertise </span>with</div>
           <div className='fw-700 text-4r lh-6'>Pentos</div>
           <span className='fw-400 text-25 lh-2'>Everyone should have the opportunity to showcase their investment prowess</span>
         </div>
         <div className='flex'>
           <div className='flex flex-column align-center justify-around w-half'>
             <div className='flex align-center'>
-              <img src='assets/images/_1.svg' style={{ width: '6.8rem', height: '6.2rem' }}></img>
-              <span className='fw-25 text-1-5r lh-2-2'>Design a personalized index that reflects your investment style, or create one to follow a specific narrative.</span>
+              <img src='assets/images/_1.svg' style={{  width: '9rem', height: '8.5rem' }}></img>
+              <span className='fw-25 text-1-5r lh-2-2 ml-1r'>Design a personalized index that reflects your investment style, or create one to follow a specific narrative.</span>
             </div>
             <div className='flex align-center'>
-              <img src='assets/images/_2.svg' style={{ width: '6.8rem', height: '6.2rem' }}></img>
-              <span className='fw-25 text-1-5r lh-2-2'>Utilize dynamic and evolving index tools, including back testing, limit orders and more to optimize your strategy.</span>
+              <img src='assets/images/_2.svg' style={{  width: '9rem', height: '8.5rem' }}></img>
+              <span className='fw-25 text-1-5r lh-2-2 ml-1r'>Utilize dynamic and evolving index tools, including back testing, limit orders and more to optimize your strategy.</span>
             </div>
             <div className='flex align-center'>
-              <img src='assets/images/_3.svg' style={{ width: '6.8rem', height: '6.2rem' }}></img>
-              <span className='fw-25 text-1-5r lh-2-2'>Benefit from your expertise by earning management and performance fees.</span>
+              <img src='assets/images/_3.svg' style={{  width: '9rem', height: '8.5rem' }}></img>
+              <span className='fw-25 text-1-5r lh-2-2 ml-1r'>Benefit from your expertise by earning management and performance fees.</span>
             </div>
           </div>
-          <img className='w-half mark' src="assets/images/bg7.svg" style={{ width: '45%', height: '50vh', marginTop: '2rem', marginRight: '-2rem' }} />
+          <img className='w-half mark' src="assets/images/bg7.svg" style={{ width: '60%', height: '100vh', marginTop: '2rem', marginRight: '-2rem' }} />
         </div>
       </div>
       {/* divider4 */}
@@ -162,12 +182,12 @@ function App() {
             We provide and meet the needs of crypto traders and investors. By offering a revolutionary approach to crypto asset management, we provide users with everything they need, through our own tools and tools of our collaborators
           </span>
         </div>
-        <div className='flex'>
+        <div className='flex flex-around'>
           <div className='w-half mark'>
-            <img src="assets/images/bg10.svg" style={{ width: '23.7rem', height: '34rem' }} />
+            <img src="assets/images/bg10.svg" style={{ width: '45rem', height: '55rem' }} />
           </div>
           <div className='flex flex-column w-half' style={{ marginTop: '7rem', marginRight: '2rem' }}>
-            <span className='fw-600 text-30 lh-45'>Pentos - Swap</span>
+            <span className='fw-600 text-30 lh-45' style={{marginTop:'8rem'}}>Pentos - Swap</span>
             <span className='fw-400 text-24 lh-36'>Buy and sell pre-built indexes at a glance, streamlining your investment process.</span>
           </div>
         </div>
@@ -180,11 +200,11 @@ function App() {
             <img src="assets/images/bg9.svg" style={{ width: '36rem', height: '30rem' }} />
           </div>
         </div>
-        <div className='flex'>
+        <div className='flex flex-around'>
           <div className='w-half mark'>
-            <img src="assets/images/bg8.svg" style={{ width: '34rem', height: '39rem' }} />
+            <img src="assets/images/bg8.svg" style={{ width: '33rem', height: '38rem' }} />
           </div>
-          <div className='flex flex-column w-half' style={{ marginTop: '7rem', marginRight: '2rem' }}>
+          <div className='flex flex-column w-half' style={{ marginTop: '7rem', marginLeft: '2rem' }}>
             <span className='fw-600 text-30 lh-45'>Pentos - DCA</span>
             <span className='fw-400 text-24 lh-36'>Invest smarter, not harder. DCA your way on Pentos.</span>
           </div>

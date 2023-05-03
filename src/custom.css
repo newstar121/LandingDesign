@@ -58,7 +58,7 @@
   }
 
   .w-2r {
-    width: 2rem;
+    width: 1.8rem;
   }
 
   .w-5r {
@@ -72,10 +72,6 @@
 
   .h-0-3r {
     height: 0.3rem;
-  }
-
-  .h-2r {
-    height: 2rem;
   }
 
   .h-5r {
@@ -112,6 +108,14 @@
 
   .h-180r {
     height: 50rem !important;
+  }
+
+  .text-1-2r {
+    font-size: 0.6rem !important;
+  }
+
+  .text-1-3r {
+    font-size: 0.65rem !important;
   }
 
   .text-1-4r {
@@ -242,12 +246,28 @@
     padding: 2rem !important;
   }
 
+  .padding-6r {
+    padding: 3rem !important;
+  }
+
+  .padding-7r {
+    padding: 3.5rem !important;
+  }
+
   .padding-10r {
     padding: 5rem !important;
   }
 
   .pl-m-10r {
     padding-left: 0rem !important;
+  }
+
+  .pl-m-5r {
+    padding-left: 3rem !important;
+  }
+
+  .pr-m-5r {
+    padding-right: 3rem !important;
   }
 
   .flex-reverse-row {
@@ -355,7 +375,7 @@
 }
 
 .w-2r {
-  width: 2rem;
+  width: 1.8rem;
 }
 
 .w-5r {
@@ -377,7 +397,7 @@
 }
 
 .h-2r {
-  height: 2rem;
+  height: 1.6rem;
 }
 
 .h-5r {
@@ -470,7 +490,7 @@
 
 .custom-border {
   border: 1.5px solid #8B8B8B;
-  border-radius: 1rem;
+  border-radius: 3rem;
 }
 
 /* divider */
@@ -494,7 +514,9 @@
 }
 
 .bg-1 {
+  background: no-repeat;
   background-image: url('../public/assets/images/bg1.svg');
+  /* background-size: contain; */
   background-size: cover;
 }
 
@@ -532,31 +554,31 @@
 }
 
 .fw-25 {
-  font-weight: 25rem;
+  font-weight: 400;
 }
 
 .fw-400 {
-  font-weight: 25rem;
+  font-weight: 400;
 }
 
 .fw-32 {
-  font-weight: 32rem;
+  font-weight: 500;
 }
 
 .fw-600 {
-  font-weight: 37.5rem;
+  font-weight: 600;
 }
 
 .fw-37-5 {
-  font-weight: 37.5rem;
+  font-weight: 600;
 }
 
 .fw-43-75 {
-  font-weight: 43.75rem;
+  font-weight: 700;
 }
 
 .fw-700 {
-  font-weight: 43.75rem;
+  font-weight: 700;
 }
 
 .text-white {
@@ -584,7 +606,7 @@
 }
 
 .lh-5 {
-  line-height: 5rem;
+  line-height: 4.5rem;
 }
 
 .lh-2 {
@@ -651,6 +673,14 @@
   font-size: 1rem;
 }
 
+.text-1-2r {
+  font-size: 1.2rem
+}
+
+.text-1-3r {
+  font-size: 1.3rem;
+}
+
 .text-1-4r {
   font-size: 1.4rem
 }
@@ -696,7 +726,7 @@
 }
 
 .text-4r {
-  font-size: 4rem;
+  font-size: 3.7rem;
 }
 
 .text-4-5r {
@@ -867,6 +897,10 @@
   margin-right: 3rem;
 }
 
+.mr-4r {
+  margin-right: 4rem;
+}
+
 .mr-5r {
   margin-right: 5rem;
 }
@@ -992,12 +1026,28 @@
   padding: 5rem;
 }
 
+.padding-6r {
+  padding: 6rem;
+}
+
+.padding-7r {
+  padding: 7rem;
+}
+
 .padding-10r {
   padding: 10rem;
 }
 
 .pl-m-10r {
   padding-left: 10rem;
+}
+
+.pl-m-5r {
+  padding-left: 5rem;
+}
+
+.pr-m-5r {
+  padding-right: 5rem;
 }
 
 /* border */
@@ -1009,4 +1059,7 @@
   margin-right: 2rem;
   height: 28rem;
   padding: 2rem;
+}
+
+.bold {
 }
